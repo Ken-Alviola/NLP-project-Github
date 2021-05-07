@@ -1,24 +1,24 @@
 # NLP-project-Github
 
 ### Description 
-- Project in c
+- Project analyzing text scraped from github repos related to cryptocurrency
 
 ### Goals
-- 
+- Analyze keywords from top 5 programming languages
+- Predict primary programming language for repo
 
 ---------------------------------
 ### Data Dictionary
 ---
 | Column | Definition | Data Type |
 | ----- | ----- | ----- |
-|| 590 signals/measurements during the manufacturing process| float|
-|date| date the wafer was evaluated| object|
-|time| time the wafer was evaluated| object|
+|repo| github url endpoint| object|
+|readme_contents| text from repo README| object|
 
 ---------------------------------------------------
 | Target | Definition | Data Type |
 | ----- | ----- | ----- |
-|defect| 1 if failed after manufacturing process 0 if not| int|
+|language| primary language of repo| object|
 
 --------------------------------------------------
 ### Hypotheses
