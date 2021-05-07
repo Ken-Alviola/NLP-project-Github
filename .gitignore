@@ -1,1 +1,5 @@
 env.py
+*.ttf
+*.png
+*.jpeg
+*.jpg
