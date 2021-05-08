@@ -4,6 +4,7 @@ import json
 import nltk
 from nltk.tokenize.toktok import ToktokTokenizer
 from nltk.corpus import stopwords
+from sklearn.model_selection import train_test_split
 
 import pandas as pd
 from nltk.corpus import stopwords
